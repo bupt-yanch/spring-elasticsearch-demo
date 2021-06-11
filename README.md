@@ -1,3 +1,4 @@
 # spring-elasticsearch-demo
 spring boot项目使用restHighLevelClient接入elasticsearch
 
+简单实现一些查询请求
