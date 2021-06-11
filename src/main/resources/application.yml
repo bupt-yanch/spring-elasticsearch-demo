@@ -1,0 +1,14 @@
+spring:
+  main:
+    web-application-type: servlet
+  mvc:
+    servlet:
+      load-on-startup=100:
+  elasticsearch:
+    rest:
+      connection-timeout: 6s
+      uris: test-cluster-02:9200
+      read-timeout: 10s
+      # 如果不需要账号密码就可访问，下面两个字段可以去掉
+      # username: estest
+      # password: estest
